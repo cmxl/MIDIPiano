@@ -1,0 +1,17 @@
+﻿@using MIDIPiano.Models
+
+@* TODO responsiveness not yet implemented *@
+<div class="piano-keyboard">
+	@foreach (var group in PianoKeys.All)
+	{
+		<div class="piano-key-block auto-hide">
+			@for (var index = 0; index < group.Length; index++)
+			{
+				var key = group[index];
+				<div class="piano-key-position-@(index+1)">
+					<PianoKey @ref="KeyRef" Clicked="@PlayNote" Tone="@key"/>
+				</div>		
+			}
+		</div>
+	}
+</div>

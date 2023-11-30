@@ -1,6 +1,0 @@
-<div class="preview-wrapper">
-    <img class="preview" src="@File.DataAsPath" alt="Preview"/>
-    <div class="preview-ctrls" @onclick="@(() => FileClicked.InvokeAsync(File))">
-        <IconButton OnClick="@(() => RemoveClicked.InvokeAsync(File))" Icon="fa-solid fa-xmark"/>
-    </div>
-</div>

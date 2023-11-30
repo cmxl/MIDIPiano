@@ -1,8 +1,0 @@
-<div class="select-wrapper">
-    <select @bind="Selected" @oninput="CallSelectedChanged">
-        @foreach (var entry in Values)
-        {
-            <option value="@entry.Key">@(entry.Value)</option>
-        }
-    </select>
-</div>

@@ -1,0 +1,145 @@
+.piano {
+	padding: 12px;
+	border-radius: 12px;
+}
+
+.piano-keyboard {
+	display: flex;
+	justify-content: center;
+}
+
+.piano-key-start-block {
+	position: relative;
+	height: 200px;
+	width: 62px;
+}
+
+.piano-key-block:first-child {
+	width: 62px;
+}
+
+.piano-key-block:last-child {
+	width: 31px;
+}
+
+.piano-key-block {
+	position: relative;
+	height: 200px;
+	width: 217px;
+}
+
+.piano-key-position-1 {
+	position: absolute;
+}
+
+.piano-key-position-2 {
+	position: absolute;
+	left: 20px;
+	z-index: 999;
+}
+
+.piano-key-position-3 {
+	position: absolute;
+	left: 31px;
+}
+
+.piano-key-position-4 {
+	position: absolute;
+	left: 51px;
+	z-index: 999;
+}
+
+.piano-key-position-5 {
+	position: absolute;
+	left: 62px;
+}
+
+.piano-key-position-6 {
+	position: absolute;
+	left: 93px;
+}
+
+.piano-key-position-7 {
+	position: absolute;
+	left: 113px;
+	z-index: 999;
+}
+
+.piano-key-position-8 {
+	position: absolute;
+	left: 124px;
+}
+
+.piano-key-position-9 {
+	position: absolute;
+	left: 144px;
+	z-index: 999;
+}
+
+.piano-key-position-10 {
+	position: absolute;
+	left: 155px;
+}
+
+.piano-key-position-11 {
+	position: absolute;
+	left: 175px;
+	z-index: 999;
+}
+
+.piano-key-position-12 {
+	position: absolute;
+	left: 186px;
+}
+
+@media (max-width: 640px) {
+	.hide-on-mobile {
+		display: none;
+	}
+}
+
+.auto-hide {
+	display: flex;
+}
+
+@media (min-width: 470px) {
+	.auto-hide-1 {
+		display: flex;
+	}
+}
+
+@media (min-width: 735px) {
+	.auto-hide-2 {
+		display: flex;
+	}
+}
+
+@media (min-width: 935px) {
+	.auto-hide-3 {
+		display: flex;
+	}
+}
+
+@media (min-width: 1165px) {
+	.auto-hide-4 {
+		display: flex;
+	}
+}
+
+@media (min-width: 1365px) {
+	.auto-hide-5 {
+		display: flex;
+	}
+}
+
+@media (min-width: 1565px) {
+	.auto-hide-6 {
+		display: flex;
+	}
+}
+
+@media (min-width: 1627px) {
+	.auto-hide-7 {
+		display: flex;
+	}
+}

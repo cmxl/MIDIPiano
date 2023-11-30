@@ -1,0 +1,23 @@
+
+.piano-key {
+	color: black;
+	background-color: white;
+	width: 30px;
+	height: 200px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border: 1px solid gray;
+}
+
+.piano-key-black {
+	background-color: black;
+	width: 21px;
+	height: 130px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+.piano-key-selected {
+	background-color: red;
+	color: white;
+}
