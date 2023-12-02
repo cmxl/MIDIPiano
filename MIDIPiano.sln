@@ -7,6 +7,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{94FF42CA-B3B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MIDIPiano", "src\MIDIPiano\MIDIPiano.csproj", "{32210EC7-886A-4C3F-A2AF-1938C5579F8F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{811EDDBA-548A-402F-AC4F-2E68CA658C8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MIDIPiano.Tests", "tests\MIDIPiano.Tests\MIDIPiano.Tests.csproj", "{F9B3684C-23C5-4FCD-B68A-F8E4B9582F02}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "props", "props", "{8132204A-D02B-4E47-91AB-6C81689C255A}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+		global.json = global.json
+		LICENSE = LICENSE
+		nuget.config = nuget.config
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +35,13 @@ Global
 		{32210EC7-886A-4C3F-A2AF-1938C5579F8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32210EC7-886A-4C3F-A2AF-1938C5579F8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32210EC7-886A-4C3F-A2AF-1938C5579F8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9B3684C-23C5-4FCD-B68A-F8E4B9582F02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9B3684C-23C5-4FCD-B68A-F8E4B9582F02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9B3684C-23C5-4FCD-B68A-F8E4B9582F02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9B3684C-23C5-4FCD-B68A-F8E4B9582F02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{32210EC7-886A-4C3F-A2AF-1938C5579F8F} = {94FF42CA-B3BE-4BF3-8F89-DF45FB741657}
+		{F9B3684C-23C5-4FCD-B68A-F8E4B9582F02} = {811EDDBA-548A-402F-AC4F-2E68CA658C8F}
 	EndGlobalSection
 EndGlobal
